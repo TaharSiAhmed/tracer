@@ -30,6 +30,7 @@
   ],
   "scripts": {
     "test": "expresso test/*",
+    "lint:fix": "eslint --fix .",
     "lint": "eslint .",
     "posttest": "npm run lint",
     "test:coverage": "istanbul cover expresso test/*.js",
